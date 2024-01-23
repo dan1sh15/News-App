@@ -28,6 +28,7 @@ const News = (props) => {
           setProgress(70);
           setArticles(parsedData.articles);
           setTotalResult(parsedData.totalResults);
+          console.log(parsedData);
           Toast.success("Fetched News Data Successfully");
           setLoading(false);
           setProgress(100);
