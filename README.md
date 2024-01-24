@@ -1,3 +1,7 @@
+# Working project link here
+The working News App is demonstrated in the video because the News Api that I used in the project was restricted to localhost request only. It wasn't working after deployment.
+[Working News App Video Link](https://drive.google.com/file/d/1bEDYEcwZk8dzNaPEScedy6ucP3huytsG/view)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
