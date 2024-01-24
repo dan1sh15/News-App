@@ -12,7 +12,7 @@ const NewsItem = (props) => {
       <div className='flex justify-between h-[70%] flex-col max-sm:gap-y-3 gap-y-5 p-4'>
         <div className='flex flex-col max-sm:gap-y-2 gap-y-5'>
             <h1 className='text-xl max-sm:text-base tracking-wide font-semibold'>{title.length > 100 ? title.substring(0, 100) : title}</h1>
-            <p className=' text-slate-300 max-sm:text-sm'>{ description ? description.length > 150 ? description.substring(0, 150) : description : <div className=''>"No description found"</div>}</p>
+            <div className=' text-slate-300 max-sm:text-sm'>{ description ? description.length > 150 ? description.substring(0, 150) : description : <div className=''>"No description found"</div>}</div>
         </div>
         <div className='flex flex-col max-sm:gap-y-2 gap-y-5'>
             <p><small className=' text-slate-200 max-phone:text-xs'>By {author} at { new Date(date).toGMTString() }</small></p>
